@@ -1,0 +1,27 @@
+FROM golang:1.13
+
+# install packages
+
+RUN go get go.uber.org/zap && \
+    go get github.com/dgrijalva/jwt-go && \
+    go get github.com/go-sql-driver/mysql && \
+    go get github.com/labstack/echo/middleware && \
+    go get xorm.io/core && \
+    go get github.com/go-xorm/xorm && \
+    go get github.com/mattn/go-sqlite3 && \
+    go get github.com/spf13/viper && \
+    go get github.com/labstack/echo && \
+    go get github.com/urfave/cli && \
+    go get github.com/satori/go.uuid && \
+    go get github.com/google/go-querystring/query && \
+    go get github.com/go-kit/kit/transport/http && \
+    go get github.com/go-kit/kit/circuitbreaker && \
+    go get github.com/go-kit/kit/endpoint && \
+    go get github.com/go-kit/kit/log && \
+    go get github.com/go-kit/kit/ratelimit && \
+    go get github.com/go-kit/kit/tracing/opentracing && \
+    go get github.com/go-kit/kit/transport/grpc && \
+    go get github.com/pangpanglabs/goutils/... && \
+    go get github.com/asaskevich/govalidator && \
+    go get github.com/sirupsen/logrus && \
+    go get github.com/gomodule/redigo/redis
