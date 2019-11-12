@@ -24,4 +24,7 @@ RUN go get go.uber.org/zap && \
     go get github.com/pangpanglabs/goutils/... && \
     go get github.com/asaskevich/govalidator && \
     go get github.com/sirupsen/logrus && \
-    go get github.com/gomodule/redigo/redis
+    go get github.com/gomodule/redigo/redis && \
+    go get golang.org/x/net/context && \
+    go get golang.org/x/time/rate && \
+    go get gopkg.in/testfixtures.v2
