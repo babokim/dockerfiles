@@ -27,4 +27,11 @@ RUN go get go.uber.org/zap && \
     go get github.com/gomodule/redigo/redis && \
     go get golang.org/x/net/context && \
     go get golang.org/x/time/rate && \
-    go get gopkg.in/testfixtures.v2
+    go get gopkg.in/testfixtures.v2 && \
+    go get github.com/jinzhu/configor && \
+    go get github.com/BurntSushi/toml  && \
+    go get github.com/aliyun/aliyun-oss-go-sdk && \
+    go get github.com/360EntSecGroup-Skylar/excelize && \
+    go get github.com/mohae/deepcopy && \
+    go get github.com/pkg/errors
+
