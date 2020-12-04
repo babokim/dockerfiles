@@ -33,5 +33,6 @@ RUN go get go.uber.org/zap && \
     go get github.com/aliyun/aliyun-oss-go-sdk && \
     go get github.com/360EntSecGroup-Skylar/excelize && \
     go get github.com/mohae/deepcopy && \
-    go get github.com/pkg/errors
+    go get github.com/pkg/errors && \
+    go get github.com/aliyun/alibaba-cloud-sdk-go/services/dysmsapi
 
